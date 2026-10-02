@@ -1,8 +1,9 @@
 #! /usr/bin/env node
-'use strict'
 
 // Pass configuration to application
-require('../')({
+import main from '../index.js'
+
+main({
   port: 8000,
   host: 'localhost'
 })
